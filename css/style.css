@@ -5,6 +5,7 @@ html {
 
 ul {
     list-style: none;
+    margin: 0;
 }
 
 a {
@@ -12,10 +13,6 @@ a {
 }
 
 /* UTILITIES */
-.main-menu > li {
-    display: inline-block;
-}
-
 /* Backgrounds */
 .bg1 {
     background: #2c3e50;
