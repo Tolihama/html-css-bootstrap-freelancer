@@ -68,6 +68,11 @@ a {
     color: #333333;
 }
 
+/* PORTFOLIO */
+#portfolio .card {
+    border-radius: 10px;
+}
+
 /* DEBUG Utilities */
 .h100 {
     height: 100px;
