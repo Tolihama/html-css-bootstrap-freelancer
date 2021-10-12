@@ -21,6 +21,14 @@ html {
     margin: 0 0.5rem;
 }
 
+/* Custom Buttons */
+.download-btn::before {
+    content: '\f019';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    color: currentColor;
+}
+
 
 /* SITE NAVBAR */
 .site-navbar {
