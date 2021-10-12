@@ -1,87 +1,9 @@
-/* GENERAL STYLES */
-html {
-    scroll-behavior: smooth;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* UTILITIES */
-/* Backgrounds */
-.bg1 {
+/* SITE NAVBAR */
+.site-navbar {
     background: #2c3e50;
 }
 
-.bg2 {
-    background: #1abc9c;
-}
-
-.bg3 {
-    background: #fff;
-}
-
-.bg4 {
-    background: #3a546d;
-}
-
-.bg5 {
-    background: #2c3e50;
-}
-
-.bg6 {
-    background: #ba4b63;
-}
-
-.bg7 {
-    background: #1ea4b6;
-}
-
-.bg8 {
-    background: #140f0f;
-}
-
-.bg9 {
-    background: #1c83c1;
-}
-
-.bg10 {
-    background: #0e38b5;
-}
-
-.bg11 {
-    background: #ccb2a3;
-}
-
-/* Text */
-.text-color-1,
-.text-color-1 a {
-    color: white;
-}
-
-.text-color-2 {
-    color: #333333;
-}
-
-/* PORTFOLIO */
-#portfolio .card {
-    border-radius: 10px;
-}
-
-/* DEBUG Utilities */
-.h100 {
-    height: 100px;
-}
-
-.h200 {
-    height: 200px;
-}
-
-.h500 {
-    height: 500px;
+.site-navbar .navbar-brand,
+.site-navbar .navbar-nav .nav-link {
+    color: #fff;
 }
