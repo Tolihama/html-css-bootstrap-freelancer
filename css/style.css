@@ -1,3 +1,27 @@
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
+
+/* SITE UTILITIES */
+/* div-star */
+.div-star::after,
+.div-star::before {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    background: currentColor;
+    border-radius: 4px;
+    margin-bottom: 0.55rem;
+}
+
+.div-star > i.fa-star {
+    font-size: 1.75rem;
+    margin: 0 0.5rem;
+}
+
+
 /* SITE NAVBAR */
 .site-navbar {
     background: #2c3e50;
@@ -6,4 +30,38 @@
 .site-navbar .navbar-brand,
 .site-navbar .navbar-nav .nav-link {
     color: #fff;
+    font-weight: 600;
+}
+
+/* MAIN */
+main section:nth-of-type(odd) {
+    color: #fff;
+    background: #1abc9c;
+}
+
+main section:nth-of-type(even) {
+    color: #333;
+    background: #fff;
+}
+
+/* SECTION "Start" */
+.start-avatar {
+    max-width: 300px;
+}
+
+.start-subtitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* SECTION "Portfolio" */
+/* Cards */
+.portfolio-card {
+    border: 0;
+    padding: 10px;
+}
+
+.portfolio-card img {
+    width: 100%;
+    border-radius: 10px;
 }
