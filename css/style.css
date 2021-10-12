@@ -75,9 +75,24 @@ main section:nth-of-type(even) {
 }
 
 /* SECTION "Contact Me" */
-.site-form-control {
+.contact-me-form input,
+.contact-me-form textarea {
+    padding: 10px 0;
+    border: 0;
     border-bottom: 1px solid #ccc;
     border-radius: 0;
+}
+
+.contact-me-form input::placeholder,
+.contact-me-form textarea::placeholder {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact-me-form input:focus,
+.contact-me-form textarea:focus {
+    border-bottom: 2px solid #000;
+    box-shadow: none;
 }
 
 .send-btn {
