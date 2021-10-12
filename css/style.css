@@ -73,3 +73,43 @@ main section:nth-of-type(even) {
     width: 100%;
     border-radius: 10px;
 }
+
+/* SECTION "Contact Me" */
+.site-form-control {
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+
+.send-btn {
+    background: #1abc9c;
+    border: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+    color: #fff;
+}
+
+.top-footer {
+    background: #3a546d;
+}
+
+.social .social-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.bottom-footer {
+    background: #2c3e50;
+    font-style: 12px;
+}
